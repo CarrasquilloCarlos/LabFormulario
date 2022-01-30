@@ -1,0 +1,37 @@
+NOMBRE: Carlos Carrasquillo Surillo
+CURSO ITP2350 CREACIÓN Y DESARROLLO DE PÁGINAS WEB
+MÓDULO 5 HTML5, TABLAS Y FORMULARIOS
+
+
+Favor de contestar la siguientes preguntas:
+
+1. Nombre 4 tipos de controles de entrada (input)  de texto en un formulario de HTML.
+     A. Text
+     B. Password
+     C. Submit
+     D. Radio
+2. Cuál control de entrada (input)es más conveniente para contestar preguntas simples de "si"o "no".
+     El mas sencillo seria el input RADIO.
+3.Cómo causas que tres opciones en un menú de selección (select) estén visibles a la vez.
+     Una vez tienes el <select> colocas los valores con un marcado de <option> al principio. Ejemplo
+     <option> valor="ejemplo"> Ejemplo</option> 
+     <option> valor="ejemplo2"> Ejemplo 2</option>
+     <option> valor="ejemplo3"> Ejemplo 3</option>
+    
+4. Añade el código apropiado para crear un campo de texto de una sola línea en el que, al ingresar los datos, todo el contenido se muestra como bullets o asteriscos en el browser; nombra el campo con el valor"secret":
+  
+
+             Please enter your secret word:
+              <label for="secret">Password:</label>
+              <input type="password" id="secret" name="secret">
+  
+
+
+5. Defina el uso de las siguientes etiquetas (recuerde que puede utilizar w3schools.com y mozilla developer doc):
+
+label - es un elemento que representa un título de un artículo en la iterfaz de un usuario.
+fieldset- este es un tag para agrupar elementos relacionados en una forma. Dibuja una caja alrededor de los elementos.
+legend -este es un tag que genera un "caption" o título en el <fieldset> cuando se agrupan elementos en html.
+
+
+Bien, guarda este archivo con tus contestaciones en la carpeta LabFormulario.  No cambies la extensión del archivo. 
